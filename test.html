@@ -2,8 +2,12 @@
 <html>
 <body>
 	<h1>What?</h1>
-	<p id = "Demo"> The best person to do 1+1 is IDK].</p>
+	<p id = "Demo"> The best person to do 1+1 is IDK.</p>
 	<button type = "button" onClick = "myFunction">Click me</button> 
-	<script src="script.js"></script>
+	<script>
+		function myFunction(){
+			document.getElementById("Demo").innerHTML= "IDK is no one.";
+		}
+	</script>
 </body>
 </html>
