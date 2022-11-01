@@ -2,6 +2,6 @@ function myFunction(){
 	document.getElementById("Demo").innerHTML= "What????????";
 }
 function Date(){
-	var Date = new date();
+	const Date = new date();
 	document.getElementById("Demo").innerHTML = Date;
 }
